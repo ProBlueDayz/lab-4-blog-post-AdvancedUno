@@ -43,8 +43,9 @@ We will control the buzzer with a wave of pulses that we will generate. <br>
 - Arduino Uno or compatible board
 - Breadboard
 - Wires
-- buzzer
+- Buzzer
 - Computer with Arduino IDE installed
+- Ultrasonic sensor
 
  
 ### 1. Project Step
@@ -189,7 +190,7 @@ delay(2000); // wait 2 seconds before next reading
 }
 ```
 <br>This code is first defining the TRIG pin and the ECHO pins. We then set the TRIG as an input and ECHO as an output.
-# Testing Number Display
+# Distance Detector
 
 
 
